@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "db_cache_store"
   gem.homepage = "http://github.com/melvinsembrano/db_cache_store"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Alternative rails cache engine}
+  gem.description = %Q{db_cache_store is an alternative rails cache engine, that will use database server}
   gem.email = "melvinsembrano@gmail.com"
   gem.authors = ["Melvin Sembrano"]
   # dependencies defined in Gemfile
