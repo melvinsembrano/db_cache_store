@@ -1,8 +1,2 @@
 Description:
-    Explain the generator
-
-Example:
-    rails generate install Thing
-
-    This will create:
-        what/will/it/create
+    The db_cache_store:install will generate the migration needed for db_cache

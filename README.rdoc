@@ -1,6 +1,6 @@
 = db_cache_store
 
-Description goes here.
+Description and sample will follow
 
 == Contributing to db_cache_store
  
