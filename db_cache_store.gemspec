@@ -18,12 +18,19 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rvmrc",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "db_cache_store.gemspec",
+    "lib/active_support/cache/db_cache_store.rb",
     "lib/db_cache_store.rb",
+    "lib/generators/db_cache_store/install/USAGE",
+    "lib/generators/db_cache_store/install/install_generator.rb",
+    "lib/generators/db_cache_store/install/templates/migration.db",
     "test/helper.rb",
     "test/test_db_cache_store.rb"
   ]
