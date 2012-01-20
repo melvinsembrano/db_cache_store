@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "db_cache_store"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Melvin Sembrano"]
-  s.date = "2012-01-18"
+  s.date = "2012-01-20"
   s.description = "db_cache_store is an alternative rails cache engine, that will use database server"
   s.email = "melvinsembrano@gmail.com"
   s.extra_rdoc_files = [
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
     "lib/db_cache_store.rb",
     "lib/generators/db_cache_store/install/USAGE",
     "lib/generators/db_cache_store/install/install_generator.rb",
-    "lib/generators/db_cache_store/install/templates/migration.db",
+    "lib/generators/db_cache_store/install/templates/migration.rb",
     "test/helper.rb",
     "test/test_db_cache_store.rb"
   ]
