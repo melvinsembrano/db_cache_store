@@ -1,6 +1,25 @@
 = db_cache_store
 
-Description and sample will follow
+db_cache_store is an alternative rails cache engine, that will use database server
+
+=== Installation
+
+For Rails installation
+
+In your Gemfile:
+
+  gem 'db_cache_store'
+
+In `config/application.rb`:
+
+  config.cache_store = :db_cache_store
+
+To create the migration table run:
+
+  rails generate db_cache_store:install
+
+
+Example and more documentations coming up..
 
 == Contributing to db_cache_store
  
